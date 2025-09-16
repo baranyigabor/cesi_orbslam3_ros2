@@ -1,0 +1,52 @@
+[0.046s] Invoking command in '/ros2_test/build/ros2_orb_slam3': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ros2_test/build/ros2_orb_slam3 -- -j16 -l16
+[0.163s] [  0%] Built target ament_cmake_python_symlink_ros2_orb_slam3
+[0.174s] [35m[1mConsolidate compiler generated dependencies of target orb_slam3_lib[0m
+[0.262s] [ 90%] Built target orb_slam3_lib
+[0.269s] [35m[1mConsolidate compiler generated dependencies of target mono_node_cpp[0m
+[0.292s] [100%] Built target mono_node_cpp
+[0.324s] running egg_info
+[0.324s] writing ros2_orb_slam3.egg-info/PKG-INFO
+[0.324s] writing dependency_links to ros2_orb_slam3.egg-info/dependency_links.txt
+[0.325s] writing top-level names to ros2_orb_slam3.egg-info/top_level.txt
+[0.329s] reading manifest file 'ros2_orb_slam3.egg-info/SOURCES.txt'
+[0.330s] writing manifest file 'ros2_orb_slam3.egg-info/SOURCES.txt'
+[0.345s] [100%] Built target ament_cmake_python_build_ros2_orb_slam3_egg
+[0.351s] Invoked command in '/ros2_test/build/ros2_orb_slam3' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ros2_test/build/ros2_orb_slam3 -- -j16 -l16
+[0.399s] Invoking command in '/ros2_test/build/ros2_orb_slam3': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ros2_test/build/ros2_orb_slam3
+[0.403s] -- Install configuration: ""
+[0.404s] -- Execute custom install script
+[0.404s] -- Up-to-date symlink: /ros2_test/install/ros2_orb_slam3/lib/libDBoW2.so
+[0.404s] -- Up-to-date symlink: /ros2_test/install/ros2_orb_slam3/lib/libg2o.so
+[0.404s] -- Up-to-date symlink: /ros2_test/install/ros2_orb_slam3/include/ros2_orb_slam3/common.hpp
+[0.404s] -- Up-to-date symlink: /ros2_test/install/ros2_orb_slam3/include/ros2_orb_slam3/common_anna_2025-05-27.hpp
+[0.404s] -- Up-to-date symlink: /ros2_test/install/ros2_orb_slam3/include/ros2_orb_slam3/common_gabor_2025-05-27.cpp
+[0.404s] -- Up-to-date symlink: /ros2_test/install/ros2_orb_slam3/share/ros2_orb_slam3/environment/pythonpath.sh
+[0.404s] -- Up-to-date symlink: /ros2_test/install/ros2_orb_slam3/share/ros2_orb_slam3/environment/pythonpath.dsv
+[0.405s] -- Up-to-date symlink: /ros2_test/install/ros2_orb_slam3/local/lib/python3.10/dist-packages/ros2_orb_slam3-1.0.0-py3.10.egg-info/PKG-INFO
+[0.405s] -- Up-to-date symlink: /ros2_test/install/ros2_orb_slam3/local/lib/python3.10/dist-packages/ros2_orb_slam3-1.0.0-py3.10.egg-info/SOURCES.txt
+[0.405s] -- Up-to-date symlink: /ros2_test/install/ros2_orb_slam3/local/lib/python3.10/dist-packages/ros2_orb_slam3-1.0.0-py3.10.egg-info/dependency_links.txt
+[0.405s] -- Up-to-date symlink: /ros2_test/install/ros2_orb_slam3/local/lib/python3.10/dist-packages/ros2_orb_slam3-1.0.0-py3.10.egg-info/top_level.txt
+[0.405s] -- Up-to-date symlink: /ros2_test/install/ros2_orb_slam3/local/lib/python3.10/dist-packages/ros2_orb_slam3/__init__.py
+[0.405s] -- Up-to-date symlink: /ros2_test/install/ros2_orb_slam3/lib/ros2_orb_slam3/mono_driver_node.py
+[0.405s] -- Up-to-date symlink: /ros2_test/install/ros2_orb_slam3/share/ament_index/resource_index/package_run_dependencies/ros2_orb_slam3
+[0.405s] -- Up-to-date symlink: /ros2_test/install/ros2_orb_slam3/share/ament_index/resource_index/parent_prefix_path/ros2_orb_slam3
+[0.405s] -- Up-to-date symlink: /ros2_test/install/ros2_orb_slam3/share/ros2_orb_slam3/environment/ament_prefix_path.sh
+[0.406s] -- Up-to-date symlink: /ros2_test/install/ros2_orb_slam3/share/ros2_orb_slam3/environment/ament_prefix_path.dsv
+[0.406s] -- Up-to-date symlink: /ros2_test/install/ros2_orb_slam3/share/ros2_orb_slam3/environment/path.sh
+[0.406s] -- Up-to-date symlink: /ros2_test/install/ros2_orb_slam3/share/ros2_orb_slam3/environment/path.dsv
+[0.406s] -- Up-to-date symlink: /ros2_test/install/ros2_orb_slam3/share/ros2_orb_slam3/local_setup.bash
+[0.406s] -- Up-to-date symlink: /ros2_test/install/ros2_orb_slam3/share/ros2_orb_slam3/local_setup.sh
+[0.406s] -- Up-to-date symlink: /ros2_test/install/ros2_orb_slam3/share/ros2_orb_slam3/local_setup.zsh
+[0.406s] -- Up-to-date symlink: /ros2_test/install/ros2_orb_slam3/share/ros2_orb_slam3/local_setup.dsv
+[0.406s] -- Symlinking: /ros2_test/install/ros2_orb_slam3/share/ros2_orb_slam3/package.dsv
+[0.410s] -- Up-to-date symlink: /ros2_test/install/ros2_orb_slam3/share/ament_index/resource_index/packages/ros2_orb_slam3
+[0.411s] -- Up-to-date symlink: /ros2_test/install/ros2_orb_slam3/share/ros2_orb_slam3/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.411s] -- Up-to-date symlink: /ros2_test/install/ros2_orb_slam3/share/ros2_orb_slam3/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.411s] -- Up-to-date symlink: /ros2_test/install/ros2_orb_slam3/share/ros2_orb_slam3/cmake/ros2_orb_slam3Config.cmake
+[0.411s] -- Up-to-date symlink: /ros2_test/install/ros2_orb_slam3/share/ros2_orb_slam3/cmake/ros2_orb_slam3Config-version.cmake
+[0.411s] -- Up-to-date symlink: /ros2_test/install/ros2_orb_slam3/share/ros2_orb_slam3/package.xml
+[0.411s] -- Up-to-date: /ros2_test/install/ros2_orb_slam3/lib/ros2_orb_slam3/mono_node_cpp
+[0.411s] -- Up-to-date: /ros2_test/install/ros2_orb_slam3/lib/liborb_slam3_lib.so.
+[0.411s] -- Up-to-date: /ros2_test/install/ros2_orb_slam3/lib/liborb_slam3_lib.so
+[0.431s] Listing '/ros2_test/install/ros2_orb_slam3/local/lib/python3.10/dist-packages/ros2_orb_slam3'...
+[0.436s] Invoked command in '/ros2_test/build/ros2_orb_slam3' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ros2_test/build/ros2_orb_slam3

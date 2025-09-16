@@ -1,0 +1,36 @@
+[0.025s] Invoking command in '/ros2_test/build/ros2_orb_slam3': /usr/bin/cmake /ros2_test/src/ros2_orb_slam3 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros2_test/install/ros2_orb_slam3
+[0.130s] -- The C compiler identification is GNU 11.4.0
+[0.168s] -- The CXX compiler identification is GNU 11.4.0
+[0.176s] -- Detecting C compiler ABI info
+[0.220s] -- Detecting C compiler ABI info - done
+[0.226s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.226s] -- Detecting C compile features
+[0.227s] -- Detecting C compile features - done
+[0.230s] -- Detecting CXX compiler ABI info
+[0.276s] -- Detecting CXX compiler ABI info - done
+[0.282s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.282s] -- Detecting CXX compile features
+[0.282s] -- Detecting CXX compile features - done
+[0.287s] -- Performing Test COMPILER_SUPPORTS_CXX17
+[0.338s] -- Performing Test COMPILER_SUPPORTS_CXX17 - Success
+[0.338s] -- Using flag -std=c++17.
+[0.352s] [31mCMake Error at CMakeLists.txt:26 (find_package):
+[0.352s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.353s]   has asked CMake to find a package configuration file provided by
+[0.353s]   "ament_cmake", but CMake did not find one.
+[0.353s] 
+[0.353s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.353s]   any of the following names:
+[0.353s] 
+[0.353s]     ament_cmakeConfig.cmake
+[0.353s]     ament_cmake-config.cmake
+[0.353s] 
+[0.353s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.353s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.353s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.353s]   has been installed.
+[0.353s] 
+[0.353s] [0m
+[0.353s] -- Configuring incomplete, errors occurred!
+[0.353s] See also "/ros2_test/build/ros2_orb_slam3/CMakeFiles/CMakeOutput.log".
+[0.355s] Invoked command in '/ros2_test/build/ros2_orb_slam3' returned '1': /usr/bin/cmake /ros2_test/src/ros2_orb_slam3 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros2_test/install/ros2_orb_slam3

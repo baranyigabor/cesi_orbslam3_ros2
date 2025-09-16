@@ -1,0 +1,2 @@
+Invoking command in '/ros2_test/build/ros2_orb_slam3': /usr/bin/cmake /ros2_test/src/ros2_orb_slam3 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros2_test/install/ros2_orb_slam3
+Invoked command in '/ros2_test/build/ros2_orb_slam3' returned '1': /usr/bin/cmake /ros2_test/src/ros2_orb_slam3 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros2_test/install/ros2_orb_slam3
