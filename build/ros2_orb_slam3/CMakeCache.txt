@@ -274,11 +274,8 @@ Pangolin_DIR:PATH=/usr/local/lib/cmake/Pangolin
 //Path to a program.
 Python3_EXECUTABLE:FILEPATH=/usr/bin/python3
 
-//Select ROS middleware implementation to link against
-RMW_IMPLEMENTATION:STRING=rmw_fastrtps_cpp
-
 //Name of the computer/site where compile is being run
-SITE:STRING=eadca5d5fe43
+SITE:STRING=63480e3d2810
 
 //Path to a file.
 TINYXML2_INCLUDE_DIR:PATH=/usr/include

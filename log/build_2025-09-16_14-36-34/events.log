@@ -1,0 +1,46 @@
+[0.000000] (-) TimerEvent: {}
+[0.000077] (ros2_orb_slam3) JobQueued: {'identifier': 'ros2_orb_slam3', 'dependencies': OrderedDict()}
+[0.000120] (ros2_orb_slam3) JobStarted: {'identifier': 'ros2_orb_slam3'}
+[0.024278] (ros2_orb_slam3) JobProgress: {'identifier': 'ros2_orb_slam3', 'progress': 'cmake'}
+[0.024502] (ros2_orb_slam3) Command: {'cmd': ['/usr/bin/cmake', '/ros2_test/src/ros2_orb_slam3', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/ros2_test/install/ros2_orb_slam3'], 'cwd': '/ros2_test/build/ros2_orb_slam3', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LIBRARY_PATH', '/usr/local/cuda/lib64/stubs'), ('NV_LIBCUBLAS_VERSION', '11.10.3.66-1'), ('NV_NVPROF_DEV_PACKAGE', 'cuda-nvprof-11-7=11.7.101-1'), ('NV_CUDA_COMPAT_PACKAGE', 'cuda-compat-11-7'), ('NV_CUDA_NSIGHT_COMPUTE_VERSION', '11.7.1-1'), ('HOSTNAME', '63480e3d2810'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/nvidia/lib:/usr/local/nvidia/lib64'), ('NV_LIBNCCL_PACKAGE_VERSION', '2.13.4-1'), ('HOME', '/root'), ('OLDPWD', '/'), ('NV_CUDNN_PACKAGE_NAME', 'libcudnn8'), ('NV_LIBCUBLAS_DEV_VERSION', '11.10.3.66-1'), ('LC_CTYPE', 'C.UTF-8'), ('NV_LIBNCCL_DEV_PACKAGE_VERSION', '2.13.4-1'), ('NV_LIBNPP_PACKAGE', 'libnpp-11-7=11.7.4.75-1'), ('NV_CUDNN_PACKAGE', 'libcudnn8=8.5.0.96-1+cuda11.7'), ('CUDA_VERSION', '11.7.1'), ('NV_NVPROF_VERSION', '11.7.101-1'), ('NV_LIBCUBLAS_PACKAGE_NAME', 'libcublas-11-7'), ('NVIDIA_REQUIRE_CUDA', 'cuda>=11.7 brand=tesla,driver>=470,driver<471 brand=unknown,driver>=470,driver<471 brand=nvidia,driver>=470,driver<471 brand=nvidiartx,driver>=470,driver<471 brand=geforce,driver>=470,driver<471 brand=geforcertx,driver>=470,driver<471 brand=quadro,driver>=470,driver<471 brand=quadrortx,driver>=470,driver<471 brand=titan,driver>=470,driver<471 brand=titanrtx,driver>=470,driver<471'), ('_', '/usr/local/bin/colcon'), ('NV_LIBCUSPARSE_VERSION', '11.7.4.91-1'), ('NVIDIA_DRIVER_CAPABILITIES', 'compute,utility'), ('NV_CUDA_LIB_VERSION', '11.7.1-1'), ('NV_LIBNCCL_PACKAGE_NAME', 'libnccl2'), ('NV_NVML_DEV_VERSION', '11.7.91-1'), ('NV_LIBNPP_DEV_PACKAGE', 'libnpp-dev-11-7=11.7.4.75-1'), ('TERM', 'xterm'), ('NV_CUDA_CUDART_VERSION', '11.7.99-1'), ('NV_CUDNN_PACKAGE_DEV', 'libcudnn8-dev=8.5.0.96-1+cuda11.7'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('NV_LIBCUBLAS_DEV_PACKAGE_NAME', 'libcublas-dev-11-7'), ('NV_LIBCUBLAS_PACKAGE', 'libcublas-11-7=11.10.3.66-1'), ('NVARCH', 'x86_64'), ('NV_LIBNCCL_DEV_PACKAGE_NAME', 'libnccl-dev'), ('NV_LIBCUSPARSE_DEV_VERSION', '11.7.4.91-1'), ('DISPLAY', ':0'), ('NV_LIBNCCL_PACKAGE', 'libnccl2=2.13.4-1+cuda11.7'), ('NVIDIA_PRODUCT_NAME', 'CUDA'), ('NV_CUDA_CUDART_DEV_VERSION', '11.7.99-1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('NV_LIBCUBLAS_DEV_PACKAGE', 'libcublas-dev-11-7=11.10.3.66-1'), ('NV_CUDA_NSIGHT_COMPUTE_DEV_PACKAGE', 'cuda-nsight-compute-11-7=11.7.1-1'), ('NV_LIBNCCL_DEV_PACKAGE', 'libnccl-dev=2.13.4-1+cuda11.7'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('NV_NVTX_VERSION', '11.7.91-1'), ('NV_LIBNPP_VERSION', '11.7.4.75-1'), ('NV_CUDNN_VERSION', '8.5.0.96'), ('PWD', '/ros2_test/build/ros2_orb_slam3'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('NCCL_VERSION', '2.13.4-1'), ('COLCON', '1'), ('NV_LIBNPP_DEV_VERSION', '11.7.4.75-1')]), 'shell': False}
+[0.099641] (-) TimerEvent: {}
+[0.170005] (ros2_orb_slam3) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199715] (-) TimerEvent: {}
+[0.215006] (ros2_orb_slam3) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.224172] (ros2_orb_slam3) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.264733] (ros2_orb_slam3) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.269977] (ros2_orb_slam3) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.270292] (ros2_orb_slam3) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.270830] (ros2_orb_slam3) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.273391] (ros2_orb_slam3) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299827] (-) TimerEvent: {}
+[0.320217] (ros2_orb_slam3) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.326431] (ros2_orb_slam3) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.326571] (ros2_orb_slam3) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.326925] (ros2_orb_slam3) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.331964] (ros2_orb_slam3) StdoutLine: {'line': b'-- Performing Test COMPILER_SUPPORTS_CXX17\n'}
+[0.381352] (ros2_orb_slam3) StdoutLine: {'line': b'-- Performing Test COMPILER_SUPPORTS_CXX17 - Success\n'}
+[0.381546] (ros2_orb_slam3) StdoutLine: {'line': b'-- Using flag -std=c++17.\n'}
+[0.396798] (ros2_orb_slam3) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:26 (find_package):\n'}
+[0.396986] (ros2_orb_slam3) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.397041] (ros2_orb_slam3) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.397088] (ros2_orb_slam3) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.397134] (ros2_orb_slam3) StderrLine: {'line': b'\n'}
+[0.397178] (ros2_orb_slam3) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.397226] (ros2_orb_slam3) StderrLine: {'line': b'  any of the following names:\n'}
+[0.397293] (ros2_orb_slam3) StderrLine: {'line': b'\n'}
+[0.397352] (ros2_orb_slam3) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.397415] (ros2_orb_slam3) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.397460] (ros2_orb_slam3) StderrLine: {'line': b'\n'}
+[0.397503] (ros2_orb_slam3) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.397547] (ros2_orb_slam3) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.397590] (ros2_orb_slam3) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.397633] (ros2_orb_slam3) StderrLine: {'line': b'  has been installed.\n'}
+[0.397676] (ros2_orb_slam3) StderrLine: {'line': b'\n'}
+[0.397719] (ros2_orb_slam3) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.397771] (ros2_orb_slam3) StdoutLine: {'line': b'See also "/ros2_test/build/ros2_orb_slam3/CMakeFiles/CMakeOutput.log".\n'}
+[0.397817] (ros2_orb_slam3) StderrLine: {'line': b'\x1b[0m\n'}
+[0.399918] (-) TimerEvent: {}
+[0.400462] (ros2_orb_slam3) CommandEnded: {'returncode': 1}
+[0.423702] (ros2_orb_slam3) JobEnded: {'identifier': 'ros2_orb_slam3', 'rc': 1}
+[0.434292] (-) EventReactorShutdown: {}
